@@ -8,4 +8,4 @@ Description: "Functional Threshold Power (FTP) in watts for a cyclist."
 * value[x] only Quantity
 * valueQuantity.code = #W
 * valueQuantity.system = #http://unitsofmeasure.org
-* valueQuantity.unit = "W"
+* valueQuantity.unit = "W" 
