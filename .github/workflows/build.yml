@@ -37,8 +37,8 @@ jobs:
 
       - uses: qligier/fhir-ig-action@v0.3.0
         with:
-          ig-publisher: "latest"
-          sushi: "latest"
+          ig-publisher: "2.2.10"
+          sushi: "3.19.0"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
