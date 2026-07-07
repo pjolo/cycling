@@ -1,10 +1,6 @@
 // ============================================================================
 // CodeSystem: RaceBikePropertyType
 // ============================================================================
-// Purpose: Discriminator types for RaceBike property slices
-// Used by: RaceBike.profile property slicing
-// ============================================================================
-
 CodeSystem: RaceBikePropertyType
 Id: racebike-property-type
 Title: "Race Bike Property Type"
