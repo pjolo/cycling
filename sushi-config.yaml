@@ -1,0 +1,40 @@
+id: fun.racecycling
+canonical: http://fhir.example.org/racecycling
+name: RaceCyclingIG
+title: "Race Cycling FHIR Implementation Guide"
+description: "A playful FHIR Implementation Guide for road cycling enthusiasts – profiling cyclists, bikes, rides and training metrics."
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+license: CC0-1.0
+publisher:
+  name: "Fun FHIR Cycling Community"
+  url: http://example.org/fun-fhir-cycling
+copyrightYear: 2026
+releaseLabel: ci-build
+
+parameters:
+  show-inherited-invariants: true
+
+pages:
+  index.md:
+    title: "Home"
+  usecase-german.md:
+    title: "Use Case (Deutsch)"
+  usecase-french.md:
+    title: "Cas d'usage (Français)"
+  racecycling-overview.md:
+    title: "Resource Overview (PlantUML)"
+
+menu:
+  Home: index.html
+  Use Cases:
+    Deutsch: usecase-german.html
+    Français: usecase-french.html
+  Resource Overview: racecycling-overview.html
+  Artifacts Summary: artifacts.html
+
+dependencies: {}
+
+instanceOptions:
+  manualSliceOrdering: true
